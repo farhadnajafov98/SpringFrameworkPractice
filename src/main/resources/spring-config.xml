@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="notification1" class="az.farhad.springFrameworkPractice.Notification">
+    <constructor-arg ref="sms"></constructor-arg>
+    <constructor-arg ref="employee"></constructor-arg>
+    <property name="message" ref="sms"></property>
+</bean>
+
+    <bean id="notification2" class="az.farhad.springFrameworkPractice.Notification">
+        <constructor-arg ref="sms"></constructor-arg>
+        <constructor-arg ref="employee"></constructor-arg>
+        <property name="message" ref="email"></property>
+    </bean>
+
+    <bean id="sms" class="az.farhad.springFrameworkPractice.Sms"></bean>
+    <bean id="email" class="az.farhad.springFrameworkPractice.Email"></bean>
+    <bean id = "employee" class="az.farhad.springFrameworkPractice.Employee">
+        <property name="name" value="Farhad"></property>
+        <property name="surname" value="Najafov"></property>
+        <property name="age" value="24"></property>
+        <property name="salary" value="700"></property>
+        <property name="device">
+            <list>
+                <ref bean="deviceAndroid"/>
+                <ref bean="deviceIos"/>
+                <bean class="az.farhad.springFrameworkPractice.Device">
+                    <property name="name" value="Nokia"></property>
+                    <property name="version" value="1.2"></property>
+                </bean>
+            </list>
+        </property>
+        <property name="deviceMap">
+            <map>
+                <entry key="Ios">
+                    <ref bean="deviceIos"/>
+                </entry>
+                <entry key="android">
+                    <ref bean="deviceAndroid"/>
+                </entry>
+            </map>
+        </property>
+        <property name="property">
+            <props>
+                <prop key="url">jdbc:msql://localhost:3380/mydb</prop>
+                <prop key="username"> root</prop>
+                <prop key="password"> 123456</prop>
+            </props>
+        </property>
+
+    </bean>
+
+    <bean id="deviceAndroid" class="az.farhad.springFrameworkPractice.Device">
+        <property name="name" value="ANdroid"/>
+        <property name="version" value="version2"/>
+    </bean>
+
+    <bean id="deviceIos" class="az.farhad.springFrameworkPractice.Device">
+        <property name="name" value="Ios"/>
+        <property name="version" value="version15"/>
+    </bean>
+</beans>
