@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="458940da-fc26-4d75-b6aa-319a3f7b0263" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/farhad/springFrameworkPractice/Sms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
-    </list>
+    <list default="true" id="458940da-fc26-4d75-b6aa-319a3f7b0263" name="Changes" comment="SpringFrameworkPractice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +68,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659685041029</updated>
-      <workItem from="1659685042275" duration="334000" />
+      <workItem from="1659685042275" duration="664000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringFrameworkPractice">
+      <created>1659685657998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659685657998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SpringFrameworkPractice">
+      <created>1659685696829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659685696829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringFrameworkPractice" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringFrameworkPractice" />
   </component>
 </project>
